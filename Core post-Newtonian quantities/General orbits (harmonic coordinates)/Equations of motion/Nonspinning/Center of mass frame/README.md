@@ -24,14 +24,14 @@ We use the following notations:
 * ``n[i]`` is the unit separation vector  between the two bodies $n^i = (y_1^i-y_2^i)/r$
 * ``v1[i]`` and ``v2[i]`` are the velocities of body 1 and body 2
 * ``v[i]`` is the relative velocity $v^i = v_1^i - v_2^i$
-* ``v`` is the norm of the relative Velocity
+* ``v`` is the norm of the relative velocity
 * ``b0`` is an arbitrary scale used for the tail contribution
 * ``\[CapitalPi][i]`` is the integral of the impulsion flux  $\Pi^i = \int_{-\infty}^{t}  dt'  F_{P}^i(t')$ 
 * Scalar products are denoted ``U[i]V[-i] = UV`` :  nv, \\[CapitalPi]v, \\[CapitalPi]n
 
 
 We have also introduced the functions defining the hereditary contributions :
-* $I_{\text{CM 4PN}}$, such that the 4PN contribution to the relative acceleration in the center of mass frame reads $a^i_{\text{CM 4PN}}=-\frac{4 G m r}{5 c^8} n^j \int_0^{+\infty} d\tau ~ \ln\left(\frac{c \tau}{2 b0}\right) \Big[I_{\text{CM 4PN}}\[i,j\](t-\tau)+I_{\text{CM 4PN}}\[i,j\](t+\tau)\Big]$, where $I_{\text{CM 4PN}}\[i,j\]=\frac{d^7}{dt^7}(m \nu (x^i x^j -\frac{1}{3} \delta^{ij}x^2))$ is the time derivative of the quadrupole at Newtonian order in the center of mass frame with $\delta^{ij}$ being the Kronecker delta.
+* $I_{\text{CM 4PN}}$, such that the 4PN contribution to the relative acceleration in the center of mass frame reads $a^i_{\text{CM 4PN}}=-\frac{4 G m r}{5 c^8} n^j \int_0^{+\infty} d\tau ~ \ln\left(\frac{c \tau}{2 b0}\right) \Big[I_{\text{CM 4PN}}\[i,j\](t-\tau)+I_{\text{CM 4PN}}\[i,j\](t+\tau)\Big]$, where $I_{\text{CM 4PN}}\[i,j\]=\frac{d^7}{dt^7}(m \nu (x^i x^j -\frac{1}{3} \delta^{ij}x^k x^k))$ is the time derivative of the quadrupole at Newtonian order in the center of mass frame with $\delta^{ij}$ being the Kronecker delta.
 
 
 ## Sources
