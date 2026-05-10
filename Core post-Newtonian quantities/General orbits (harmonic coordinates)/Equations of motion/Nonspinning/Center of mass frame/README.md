@@ -25,7 +25,7 @@ We use the following notations:
 * ``v1[i]`` and ``v2[i]`` are the velocities of body 1 and body 2
 * ``v[i]`` is the relative velocity $v^i = v_1^i - v_2^i$
 * ``v`` is the norm of the relative Velocity
-* ``b0`` is en arbitrary scale used for the tail contribution
+* ``b0`` is an arbitrary scale used for the tail contribution
 * ``\[CapitalPi][i]`` is the integral of the impulsion flux  $\Pi^i = \int_{-\infty}^{t}  dt'  F_{P}^i(t')$ 
 * Scalar products are denoted ``U[i]V[-i] = UV`` :  nv, \\[CapitalPi]v, \\[CapitalPi]n
 
