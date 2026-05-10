@@ -27,7 +27,7 @@ We use the following notations:
 * ``v`` is the norm of the relative Velocity
 * ``b0`` is en arbitrary scale used for the tail contribution
 * ``\[CapitalPi][i]`` is the integral of the impulsion flux  $\Pi^i = \int_{-\infty}^{t}  dt'  F_{P}^i(t')$ 
-* Scalar products are denoted ``U[i]V[-i] = UV`` :  $nv$, $\Pi v$, $\Pi n$
+* Scalar products are denoted ``U[i]V[-i] = UV`` :  nv, \\[CapitalPi]v, \\[CapitalPi]n
 
 
 We have also introduced the functions defining the hereditary contributions :
