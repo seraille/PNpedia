@@ -19,17 +19,17 @@ We use the following notations:
 * ``m1`` and ``m2`` are the masses of body 1 and body 2
 * ``\[Delta][i,j]`` is the flat metric defined on the 3 dimensional euclidian space
 * ``y1[i]`` and ``y2[i]`` are the positions of body 1 and body 2
-* ``n12[i]`` is the unit separation vector between the two bodies, $n_{12}^i = (y_1^i-y_2^i)/r_{12}$
+* ``n12[i]`` is the unit separation vector between the two bodies $n_{12}^i = (y_1^i-y_2^i)/r_{12}$
 * ``v1[i]`` and ``v2[i]`` are the velocities of body 1 and body 2
-* ``v12[i]`` is the relative Velocity, $v_{12}^i = v_{1}^i - v_{2}^i$
+* ``v12[i]`` is the relative Velocity $v_{12}^i = v_1^i - v_2^i$
 * Scalar products are denoted ``U[i]V[-i] = UV`` :  n12y1, n12y2, n12v1, n12v2, y1y1, y1y2, y2y2, y1v1, y1v2, y2v1, y2v2, v1v1, v1v2, v2v2
-* ``b0`` is an arbitrary scale used for the tail contribution
+* ``b0`` is en arbitrary scale used for the tail contribution
 * ``\[Epsilon]`` is d - 3 the dimensional regularization small parameter
 * ``l0`` is an arbitrary length associated with dimensional regularization
 
 We have also introduced the functions defining the hereditary contributions :
-* $I_{\text{4PN}}$, such that the 4PN contribution to the equations of motion reads $ a^i_{\text{4PN}} = \frac{4 G (m1+m2)}{5 c^8} y_1^j \int_0^{+\infty} d\tau \, \ln\left(\frac{c \tau}{2 b0}\right) \Big[I_{\text{4PN}}[i,j](t-\tau)+I_{\text{4PN}}[i,j](t+\tau)\Big]$, where $I_{\text{4PN}}[i,j]=\frac{d^7}{dt^7}(m_1 y_1^i y_1^j + m_2 y_2^i y_2^j -\frac{1}{3} \delta^{ij}(m_2 y_{2}y_{2} + m_{1} y_{1} y_{1}))$ is the time derivative of the quadrupole at Newtonian order with $\delta^{ij}$ the Kronecker delta.
-* $I_{\text{4.5PN}}$, such that the hereditary 4.5PN contribution to the equations of motion reads $ a^i_{\text{4.5PN}}= \frac{2 G }{c^9} \int_0^{+\infty} d\tau \, \ln\left(\frac{c \tau \sqrt{\pi}}{l_0}\right) \Big[I_{\text{4.5PN}}[i](t-\tau)-I_{\text{4.5PN}}[i](t+\tau)\Big]$, where $I_{\text{4.5PN}}[i]=\frac{d^4}{dt^4}(\frac{G^3 n_{12}^{i}}{r_{12}}(m_2^3 m_1 - m_1^3 m_2))$
+* $I_{\text{4PN}}$, such that the 4PN contribution to the equations of motion reads $a^i_{\text{4PN}}=\frac{4 G (m1+m2)}{5 c^8} y_1^j \int_0^{+\infty} d\tau ~ \ln\left(\frac{c \tau}{2 b0}\right) \Big[ I_{\text{4PN}}\[i,j\](t-\tau)+I_{\text{4PN}}\[i,j\](t+\tau)\Big]$, where $I_{\text{4PN}}\[i,j\]=\frac{d^7}{dt^7}\big(m_1 y_1^i y_1^j + m_2 y_2^i y_2^j -\frac{1}{3} \delta^{ij}(m_2 y_{2}y_{2} + m_{1} y_{1} y_{1})\big)$ is the time derivative of the quadrupole at Newtonian order with $\delta^{ij}$ the Kronecker delta.
+* $I_{\text{4.5PN}}$, such that the hereditary 4.5PN contribution to the equations of motion reads $a^i_{\text{4.5PN}} = \frac{2 G }{c^9} \int_0^{+\infty} d\tau ~ \ln\left(\frac{c \tau \sqrt{\pi}}{l0}\right) \Big[I_{\text{4.5PN}}\[i\](t-\tau)-I_{\text{4.5PN}}\[i\](t+\tau)\Big]$, where $I_{\text{4.5PN}}\[i\]=\frac{d^4}{dt^4}\big(\frac{G^3 n_{12}^{i}}{r_{12}}(m_2^3 m_1 - m_1^3 m_2)\big)$
 
 ## Sources
 
