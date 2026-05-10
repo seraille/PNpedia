@@ -6,7 +6,7 @@ For the dissipative part of nonspinning compact binaries on general orbits in th
 * the file ``I_4PN_CM_nonlocal_nonspinning.txt`` contains the function $I_{\text{CM 4PN}}\[i,j\]$ defining the integrand of the hereditary tail contribution in the relative acceleration at 4PN (See the definition below)
 * the file ``4p5PN_CM_mat_Eoms_nonspinning.txt`` contains the matter part of the 4.5PN contribution to the relative acceleration in the center of mass frame
 * the file ``4p5PN_CM_rad_Eoms_nonspinning.txt`` contains the radiation part of the 4.5PN contribution to the relative acceleration in the center of mass frame
-* the file ``FluxP3p5PN.txt`` contains the impulsion flux $F_{P}$ entering in the 4.5PN radiation contribution to the relative acceleration in the center of mass frame
+* the file ``FluxP3p5PN.txt`` contains the impulsion flux $F_{P}^i$ entering in the 4.5PN radiation contribution to the relative acceleration in the center of mass frame
 
 
 ## Notations
