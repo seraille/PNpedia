@@ -23,7 +23,7 @@ We use the following notations:
 * ``v1[i]`` and ``v2[i]`` are the velocities of body 1 and body 2
 * ``v12[i]`` is the relative Velocity $v_{12}^i = v_1^i - v_2^i$
 * Scalar products are denoted ``U[i]V[-i] = UV`` :  n12y1, n12y2, n12v1, n12v2, y1y1, y1y2, y2y2, y1v1, y1v2, y2v1, y2v2, v1v1, v1v2, v2v2
-* ``b0`` is en arbitrary scale used for the tail contribution
+* ``b0`` is an arbitrary scale used for the tail contribution
 * ``\[Epsilon]`` is d - 3 the dimensional regularization small parameter
 * ``l0`` is an arbitrary length associated with dimensional regularization
 
