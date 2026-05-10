@@ -3,7 +3,7 @@
 For the dissipative part of nonspinning compact binaries on general orbits in the center of mass frame in harmonic coordinates
 * the file ``2p5PN_CM_Eoms_nonspinning.txt`` contains the 2.5PN contribution to the relative acceleration in the center of mass frame
 * the file ``3p5PN_CM_Eoms_nonspinning.txt`` contains the 3.5PN contribution to the relative acceleration in the center of mass frame
-* the file ``I_4PN_CM_nonlocal_nonspinning.txt`` contains the function $I_{\text{CM}~\text{4PN}}[i,j]$ defining the integrand of the hereditary tail contribution in the relative acceleration at 4PN (See the definition below)
+* the file ``I_4PN_CM_nonlocal_nonspinning.txt`` contains the function $I_{\text{CM 4PN}}\[i,j\]$ defining the integrand of the hereditary tail contribution in the relative acceleration at 4PN (See the definition below)
 * the file ``4p5PN_CM_mat_Eoms_nonspinning.txt`` contains the matter part of the 4.5PN contribution to the relative acceleration in the center of mass frame
 * the file ``4p5PN_CM_rad_Eoms_nonspinning.txt`` contains the radiation part of the 4.5PN contribution to the relative acceleration in the center of mass frame
 * the file ``FluxP3p5PN.txt`` contains the impulsion flux $F_{P}$ entering in the 4.5PN radiation contribution to the relative acceleration in the center of mass frame
@@ -27,11 +27,11 @@ We use the following notations:
 * ``v`` is the norm of the relative Velocity
 * ``b0`` is en arbitrary scale used for the tail contribution
 * ``\[CapitalPi][i]`` is the integral of the impulsion flux  $\Pi^i = \int_{-\infty}^{t}  dt'  F_{P}^i(t')$ 
-* Scalar products are denoted ``U[i]V[-i] = UV`` :  nv, \[CapitalPi]v, \[CapitalPi]n
+* Scalar products are denoted ``U[i]V[-i] = UV`` :  $nv$, $\Pi v$, $\Pi n$
 
 
 We have also introduced the functions defining the hereditary contributions :
-* $I_{\text{CM},\text{4PN}}$, such that the 4PN contribution to the relative acceleration in the center of mass frame reads $a^i_{\text{CM}~\text{4PN}}=-\frac{4 G m}{5 c^8} y_1^j \int_0^{+\infty} d\tau ~ \ln\left(\frac{c \tau}{2 b0}\right) \Big[I_{\text{CM}~\text{4PN}}\[i,j\](t-\tau)+I_{\text{CM}~\text{4PN}}\[i,j\](t+\tau)\Big]$, where $I_{\text{CM}~\text{4PN}}[i,j]=\frac{d^7}{dt^7}\big(m \nu (x^i x^j -\frac{1}{3} \delta^{ij}x^2)\big)$ is the time derivative of the quadrupole at Newtonian order in the center of mass frame with $\delta^{ij}$ being the Kronecker delta.
+* $I_{\text{CM 4PN}}$, such that the 4PN contribution to the relative acceleration in the center of mass frame reads $a^i_{\text{CM 4PN}}=-\frac{4 G m}{5 c^8} y_1^j \int_0^{+\infty} d\tau ~ \ln\left(\frac{c \tau}{2 b0}\right) \Big[I_{\text{CM 4PN}}\[i,j\](t-\tau)+I_{\text{CM 4PN}}\[i,j\](t+\tau)\Big]$, where $I_{\text{CM 4PN}}\[i,j\]=\frac{d^7}{dt^7}(m \nu (x^i x^j -\frac{1}{3} \delta^{ij}x^2))$ is the time derivative of the quadrupole at Newtonian order in the center of mass frame with $\delta^{ij}$ being the Kronecker delta.
 
 
 ## Sources
